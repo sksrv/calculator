@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+      background-color: #000000;
+}
+/* outer div */
+.container{
+    max-width: 300px;
+    max-height: 500px;
+    background-color: #142f44;
+    margin: 150px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+/* display div */
+.display{
+    background-color: #1d3849;
+    height: 80px;
+    /* margin: 20px; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    /* border-radius: 5%; */
+    border: 2px solid #205b7a;
+    font-size: 2rem;
+    font-weight: 700;
+    color:ghostwhite;
+}
+/* all btn parent div */
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* background-color: brown; */
+}
+/* all individual btn class */
+.btn{
+    height: 60px;
+    background-color: #a2bbcf;
+    flex-basis: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.btn:hover{
+    background-color: #374047;
+}

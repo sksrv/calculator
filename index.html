@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="display"></div>
+        <div class="buttons">
+            <div onclick="clearDisplay()" class="btn" id="ac">Ac</div>
+            <div onclick="deleteDisplay()" class="btn" id="del">DEL</div>
+            <div onclick="inputDisplay('%')" class="btn" id="modulo">%</div>
+            <div onclick="inputDisplay('/')" class="btn" id="divide">/</div>
+            <div onclick="inputDisplay('7')" class="btn" id="seven">7</div>
+            <div onclick="inputDisplay('8')" class="btn" id="eight">8</div>
+            <div onclick="inputDisplay('9')" class="btn" id="nine">9</div>
+            <div onclick="inputDisplay('*')" class="btn" id="mul">*</div>
+            <div onclick="inputDisplay('4')" class="btn" id="four">4</div>
+            <div onclick="inputDisplay('5')" class="btn" id="five">5</div>
+            <div onclick="inputDisplay('6')" class="btn" id="six">6</div>
+            <div onclick="inputDisplay('-')" class="btn" id="minus">-</div>
+            <div onclick="inputDisplay('1')" class="btn" id="one">1</div>
+            <div onclick="inputDisplay('2')" class="btn" id="two">2</div>
+            <div onclick="inputDisplay('3')" class="btn" id="three">3</div>
+            <div onclick="inputDisplay('+')" class="btn" id="plus">+</div>
+            <div onclick="inputDisplay('00')" class="btn" id="double-zero">00</div>
+            <div onclick="inputDisplay('0')" class="btn" id="zero">0</div>
+            <div onclick="inputDisplay('.')" class="btn" id="dot">.</div>
+            <div onclick="calculate()" class="btn" id="equal">=</div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
